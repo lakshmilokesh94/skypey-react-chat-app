@@ -1,0 +1,6 @@
+.Sidebar{
+    width: 320px;
+    background-color:black;
+    height: 100%;
+    overflow-y:scroll;
+}

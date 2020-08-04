@@ -1,0 +1,35 @@
+
+.MessageInput {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+  }
+
+  .MessageInput__input {
+    width: 90%;
+    padding: 1rem;
+    margin:10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    font-size: 1rem;
+    outline: 0;
+  }
+
+  .MessageInput__send-button{
+      background: deepskyblue;
+      border:none;
+      color: white;
+      width: 10%;
+      height:60%;
+      border-radius:10px;
+      margin : auto 0;
+      font-size: medium;
+  }
+
+  .MessageInput__send-button:hover{
+      background: white;
+      color:deepskyblue;
+      cursor:pointer;
+  }
